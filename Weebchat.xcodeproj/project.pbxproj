@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC91CA961D383A6F0079AC4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91CA951D383A6F0079AC4F /* AppDelegate.swift */; };
+		FC91CA981D383A6F0079AC4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91CA971D383A6F0079AC4F /* ViewController.swift */; };
+		FC91CA9B1D383A700079AC4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC91CA991D383A700079AC4F /* Main.storyboard */; };
+		FC91CA9D1D383A700079AC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC91CA9C1D383A700079AC4F /* Assets.xcassets */; };
+		FC91CAA01D383A700079AC4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC91CA9E1D383A700079AC4F /* LaunchScreen.storyboard */; };
+		FC91CAAB1D383A700079AC4F /* WeebchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91CAAA1D383A700079AC4F /* WeebchatTests.swift */; };
+		FC91CAB61D383A700079AC4F /* WeebchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91CAB51D383A700079AC4F /* WeebchatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC91CAA71D383A700079AC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC91CA8A1D383A6F0079AC4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC91CA911D383A6F0079AC4F;
+			remoteInfo = Weebchat;
+		};
+		FC91CAB21D383A700079AC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC91CA8A1D383A6F0079AC4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC91CA911D383A6F0079AC4F;
+			remoteInfo = Weebchat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC91CA921D383A6F0079AC4F /* Weebchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weebchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC91CA951D383A6F0079AC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC91CA971D383A6F0079AC4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC91CA9A1D383A700079AC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC91CA9C1D383A700079AC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC91CA9F1D383A700079AC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC91CAA11D383A700079AC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC91CAA61D383A700079AC4F /* WeebchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeebchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC91CAAA1D383A700079AC4F /* WeebchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeebchatTests.swift; sourceTree = "<group>"; };
+		FC91CAAC1D383A700079AC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC91CAB11D383A700079AC4F /* WeebchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeebchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC91CAB51D383A700079AC4F /* WeebchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeebchatUITests.swift; sourceTree = "<group>"; };
+		FC91CAB71D383A700079AC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC91CA8F1D383A6F0079AC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC91CAA31D383A700079AC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC91CAAE1D383A700079AC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC91CA891D383A6F0079AC4F = {
+			isa = PBXGroup;
+			children = (
+				FC91CA941D383A6F0079AC4F /* Weebchat */,
+				FC91CAA91D383A700079AC4F /* WeebchatTests */,
+				FC91CAB41D383A700079AC4F /* WeebchatUITests */,
+				FC91CA931D383A6F0079AC4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC91CA931D383A6F0079AC4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC91CA921D383A6F0079AC4F /* Weebchat.app */,
+				FC91CAA61D383A700079AC4F /* WeebchatTests.xctest */,
+				FC91CAB11D383A700079AC4F /* WeebchatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC91CA941D383A6F0079AC4F /* Weebchat */ = {
+			isa = PBXGroup;
+			children = (
+				FC91CA951D383A6F0079AC4F /* AppDelegate.swift */,
+				FC91CA971D383A6F0079AC4F /* ViewController.swift */,
+				FC91CA991D383A700079AC4F /* Main.storyboard */,
+				FC91CA9C1D383A700079AC4F /* Assets.xcassets */,
+				FC91CA9E1D383A700079AC4F /* LaunchScreen.storyboard */,
+				FC91CAA11D383A700079AC4F /* Info.plist */,
+			);
+			path = Weebchat;
+			sourceTree = "<group>";
+		};
+		FC91CAA91D383A700079AC4F /* WeebchatTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC91CAAA1D383A700079AC4F /* WeebchatTests.swift */,
+				FC91CAAC1D383A700079AC4F /* Info.plist */,
+			);
+			path = WeebchatTests;
+			sourceTree = "<group>";
+		};
+		FC91CAB41D383A700079AC4F /* WeebchatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC91CAB51D383A700079AC4F /* WeebchatUITests.swift */,
+				FC91CAB71D383A700079AC4F /* Info.plist */,
+			);
+			path = WeebchatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC91CA911D383A6F0079AC4F /* Weebchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC91CABA1D383A700079AC4F /* Build configuration list for PBXNativeTarget "Weebchat" */;
+			buildPhases = (
+				FC91CA8E1D383A6F0079AC4F /* Sources */,
+				FC91CA8F1D383A6F0079AC4F /* Frameworks */,
+				FC91CA901D383A6F0079AC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weebchat;
+			productName = Weebchat;
+			productReference = FC91CA921D383A6F0079AC4F /* Weebchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC91CAA51D383A700079AC4F /* WeebchatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC91CABD1D383A700079AC4F /* Build configuration list for PBXNativeTarget "WeebchatTests" */;
+			buildPhases = (
+				FC91CAA21D383A700079AC4F /* Sources */,
+				FC91CAA31D383A700079AC4F /* Frameworks */,
+				FC91CAA41D383A700079AC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC91CAA81D383A700079AC4F /* PBXTargetDependency */,
+			);
+			name = WeebchatTests;
+			productName = WeebchatTests;
+			productReference = FC91CAA61D383A700079AC4F /* WeebchatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC91CAB01D383A700079AC4F /* WeebchatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC91CAC01D383A700079AC4F /* Build configuration list for PBXNativeTarget "WeebchatUITests" */;
+			buildPhases = (
+				FC91CAAD1D383A700079AC4F /* Sources */,
+				FC91CAAE1D383A700079AC4F /* Frameworks */,
+				FC91CAAF1D383A700079AC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC91CAB31D383A700079AC4F /* PBXTargetDependency */,
+			);
+			name = WeebchatUITests;
+			productName = WeebchatUITests;
+			productReference = FC91CAB11D383A700079AC4F /* WeebchatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC91CA8A1D383A6F0079AC4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Barry Esteen";
+				TargetAttributes = {
+					FC91CA911D383A6F0079AC4F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FC91CAA51D383A700079AC4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FC91CA911D383A6F0079AC4F;
+					};
+					FC91CAB01D383A700079AC4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FC91CA911D383A6F0079AC4F;
+					};
+				};
+			};
+			buildConfigurationList = FC91CA8D1D383A6F0079AC4F /* Build configuration list for PBXProject "Weebchat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC91CA891D383A6F0079AC4F;
+			productRefGroup = FC91CA931D383A6F0079AC4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC91CA911D383A6F0079AC4F /* Weebchat */,
+				FC91CAA51D383A700079AC4F /* WeebchatTests */,
+				FC91CAB01D383A700079AC4F /* WeebchatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC91CA901D383A6F0079AC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC91CAA01D383A700079AC4F /* LaunchScreen.storyboard in Resources */,
+				FC91CA9D1D383A700079AC4F /* Assets.xcassets in Resources */,
+				FC91CA9B1D383A700079AC4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC91CAA41D383A700079AC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC91CAAF1D383A700079AC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC91CA8E1D383A6F0079AC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC91CA981D383A6F0079AC4F /* ViewController.swift in Sources */,
+				FC91CA961D383A6F0079AC4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC91CAA21D383A700079AC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC91CAAB1D383A700079AC4F /* WeebchatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC91CAAD1D383A700079AC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC91CAB61D383A700079AC4F /* WeebchatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC91CAA81D383A700079AC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC91CA911D383A6F0079AC4F /* Weebchat */;
+			targetProxy = FC91CAA71D383A700079AC4F /* PBXContainerItemProxy */;
+		};
+		FC91CAB31D383A700079AC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC91CA911D383A6F0079AC4F /* Weebchat */;
+			targetProxy = FC91CAB21D383A700079AC4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC91CA991D383A700079AC4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC91CA9A1D383A700079AC4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC91CA9E1D383A700079AC4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC91CA9F1D383A700079AC4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC91CAB81D383A700079AC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC91CAB91D383A700079AC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC91CABB1D383A700079AC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Weebchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = downloads.Weebchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC91CABC1D383A700079AC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Weebchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = downloads.Weebchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC91CABE1D383A700079AC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeebchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = downloads.WeebchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weebchat.app/Weebchat";
+			};
+			name = Debug;
+		};
+		FC91CABF1D383A700079AC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeebchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = downloads.WeebchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weebchat.app/Weebchat";
+			};
+			name = Release;
+		};
+		FC91CAC11D383A700079AC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeebchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = downloads.WeebchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Weebchat;
+			};
+			name = Debug;
+		};
+		FC91CAC21D383A700079AC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeebchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = downloads.WeebchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Weebchat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC91CA8D1D383A6F0079AC4F /* Build configuration list for PBXProject "Weebchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC91CAB81D383A700079AC4F /* Debug */,
+				FC91CAB91D383A700079AC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC91CABA1D383A700079AC4F /* Build configuration list for PBXNativeTarget "Weebchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC91CABB1D383A700079AC4F /* Debug */,
+				FC91CABC1D383A700079AC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC91CABD1D383A700079AC4F /* Build configuration list for PBXNativeTarget "WeebchatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC91CABE1D383A700079AC4F /* Debug */,
+				FC91CABF1D383A700079AC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC91CAC01D383A700079AC4F /* Build configuration list for PBXNativeTarget "WeebchatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC91CAC11D383A700079AC4F /* Debug */,
+				FC91CAC21D383A700079AC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC91CA8A1D383A6F0079AC4F /* Project object */;
+}
